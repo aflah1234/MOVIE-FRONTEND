@@ -9,7 +9,7 @@ function MovieTicket({ reservation }) {
   return (
     <div className={classes.cardWrap}>
       <div className={`${classes.card} ${classes.cardLeft}`}>
-        <h1>The RED Cinemas</h1>
+        <h1>CINEMOVIE</h1>
         <div className={classes.title}>
           <h2>{truncate(reservation.movie, 30)}</h2>
           <span>{t('movie')}</span>
